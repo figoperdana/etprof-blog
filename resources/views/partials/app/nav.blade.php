@@ -1,6 +1,11 @@
 <nav class="navbar is-light">
     <div class="container">
         <div class="navbar-brand">
+            <a class="navbar-item" href="https://unej.ac.id/">
+                <img src="http://kemahasiswaan.unej.ac.id/wp-content/uploads/2020/07/cropped-Logo-Baku-UNEJ-2020-Square.png" alt="{{ config('settings.site_title') }}">
+                <p>ㅤ</p>
+                <p>My University</p>
+            </a>
             <a class="navbar-item" href="{{ route('root') }}">
                 <img src="{{ asset(config('settings.logo')) }}" alt="{{ config('settings.site_title') }}">
             </a>

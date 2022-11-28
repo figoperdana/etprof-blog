@@ -19,10 +19,18 @@
                         <p><a href="{{ $article->link }}">{{ $article->title }}</a></p>
                     @endforeach
                 </div>
-                <div class="column is-6">
+                <div class="column is-3">
                     <p class="title is-5">{{ __('app.footer.about') }}</p>
                     <p>{{ __('app.footer.text') }}</p>
-                    <a href="{{ __('app.footer.url') }}">{{ __('app.footer.url') }}</a>
+                    <a href="{{ __('app.footer.url') }}">linkedin.com/in/figoperdana/</a>
+                </div>
+                <div class="column is-3">
+                    <p class="title is-5">My University</p>
+                    <a href="https://unej.ac.id/">
+                    <img src="http://kemahasiswaan.unej.ac.id/wp-content/uploads/2020/07/cropped-Logo-Baku-UNEJ-2020-Square.png" alt="{{ config('settings.site_title') }}" width="100" 
+                    height="100">
+                    </a>
+                    <p href="https://unej.ac.id/">Get to know more about my University. <a>The University of Jember<a></p>
                 </div>
             </div>
         </div>
